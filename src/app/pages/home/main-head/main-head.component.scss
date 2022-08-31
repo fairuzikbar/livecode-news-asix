@@ -1,0 +1,50 @@
+.home {
+    height: 100vh;
+    position: relative;
+    color: #fff;
+    
+}
+
+.home .home-title {
+    color: #000;
+    font-weight: bold;
+    font-size: 44px;
+}
+
+@media (min-width: 768px) {
+    .home .home-title {
+        font-size: 4.5rem;
+    }
+}
+
+.home .home-subtitle {
+    color: #000;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+@media (min-width: 768px) {
+    .home .home-subtitle {
+        font-size: 2.35rem;
+    }
+}
+
+.bg-image {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(58, 131, 246, 0.4)), url(/assets/images/main-head.jpg);
+    background-size: cover;
+}
+
+.btn {
+    width: 400px;
+    height: 60px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home img {
+    margin-top: 10px;
+}

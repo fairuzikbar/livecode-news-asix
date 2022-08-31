@@ -1,0 +1,47 @@
+.adv {
+    height: auto;
+    color: #fff;
+    background-color: #3a83f6;
+    align-items: center;
+    padding: 100px;
+}
+
+.adv .adv-title {
+    color: #fff;
+    font-weight: bold;
+    font-size: 44px;
+}
+
+@media (min-width: 768px) {
+    .adv .adv-title {
+        font-size: 4.5rem;
+    }
+}
+
+.adv .adv-subtitle {
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+@media (min-width: 768px) {
+    .adv .adv-subtitle {
+        font-size: 2.35rem;
+    }
+}
+
+
+.btn {
+    width: 300px;
+    height: 60px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.adv img {
+    width: 70%;
+}
+
